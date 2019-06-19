@@ -69,5 +69,5 @@ def create_xwsse_header(username, secret):
         'Content-Type': 'application/json',
         'X-WSSE': X_WSSE
     }
-
-	return headers
+    
+    return headers
